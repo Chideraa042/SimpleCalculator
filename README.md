@@ -1,3 +1,3 @@
 #Simple_calculator
 
-A simple calculator designed to solve basic arithemetic problems! 
+A simple calculator developed to solve basic arithemetic problems! 

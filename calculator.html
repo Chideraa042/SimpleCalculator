@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <form name="form1" class="calc_dev" action="calculator.html" method="POST">
+
+        <input name="result" type="text" id="natural_display" >
+
+        <br>
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="7" onclick="form1.result.value+='7'">
+        <input type="button" class="btn" value="8" onclick="form1.result.value+='8'">
+        <input type="button" class="btn" value="9" onclick="form1.result.value+='9'">
+        <input type="button" class="oprbtn" value="DEL" onclick="form1.result.value=form1.result.value.substring(0,form1.result.value.length*1-1)">
+        <input type="button" class="oprbtn" value="AC" onclick="form1.result.value=''">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="4" onclick="form1.result.value+='4'">
+        <input type="button" class="btn" value="5" onclick="form1.result.value+='5'">
+        <input type="button" class="btn" value="6" onclick="form1.result.value+='6'">
+        <input type="button" class="oprbtn" value="&#215" onclick="form1.result.value+='*'">
+        <input type="button" class="oprbtn" value="&#247" onclick="form1.result.value+='/'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="1" onclick="form1.result.value+='1'">
+        <input type="button" class="btn" value="2" onclick="form1.result.value+='2'">
+        <input type="button" class="btn" value="3" onclick="form1.result.value+='3'">
+        <input type="button" class="oprbtn" value="&#43" onclick="form1.result.value+='+'">
+        <input type="button" class="oprbtn" value="&#8722" onclick="form1.result.value+='-'">
+
+        <br>
+        <br>
+
+        <input type="button" class="btn" value="0" onclick="form1.result.value+='0'">
+        <input type="button" class="btn" value="&#46" onclick="form1.result.value+='.'">
+        <input type="button" class="btn" value="00" onclick="form1.result.value+='00'">
+        <input type="button" id="eql" value="&#61" onclick="form1.result.value= eval(form1.result.value)">
+    
+    </form>
+</body>
+</html>

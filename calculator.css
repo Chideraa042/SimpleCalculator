@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    background:rgb(5, 5, 5);
+}
+
+.calc_dev{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    /* background: black; */
+    text-align: center;
+    
+}
+#natural_display{
+   background: white;
+   color: black;
+   border: none;
+   border-radius: 30px;
+   font-size: 24px;
+   font-family: 'Times New Roman', Times, serif;
+   width: 280px;
+   height: 50px;
+   font-weight: 100;
+   margin: auto;
+   border: 1px solid white;
+}
+
+.btn{
+   width: 50px;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 2px;
+   border: 1px solid white;
+   background: white;
+}
+
+.oprbtn{
+   width: 50px;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 2px;
+   border: 1px solid white;
+   background: white;
+   transition: 0.25px;
+   cursor: pointer;
+}
+.oprbtn:hover{
+   background-color: rgb(250, 105, 2);
+}
+
+#eql{
+   width: 100px;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 2px;
+   border: 1px solid white;
+   background: white;
+}
+#eql:hover{
+   background-color: rgb(250, 105, 2);
+}
